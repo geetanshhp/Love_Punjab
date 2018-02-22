@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.geetanshsharma.love_punjab.historical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#FFBB00"
+            android:text="HITORICAL PLACES:"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:padding="20dp"
+            android:src="@drawable/goldentemple"
+            android:layout_width="300dp"
+            android:layout_height="300dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#FFBB00"
+            android:text="Golden Temple"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginLeft="100dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+            <ImageView
+                android:src="@drawable/ff1"
+                android:layout_width="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="7sp"
+                android:layout_height="25sp" />
+        </LinearLayout>
+
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="normal"
+            android:text="@string/golden_temple1"
+            android:textSize="22dp"/>
+
+
+
+
+        <ImageView
+            android:layout_margin="10sp"
+            android:layout_width="300dp"
+            android:padding="30dp"
+            android:layout_height="300dp"
+            android:src="@drawable/jaliwala"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:layout_marginLeft="100dp"
+            android:textSize="25dp"
+            android:text="Jalliawalabagh"
+            />
+
+
+
+
+
+            <ImageView
+                android:src="@drawable/ff1"
+                android:layout_width="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="7sp"
+                android:layout_height="25sp" />
+        </LinearLayout>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:text="@string/jaliawala3"/>
+
+
+        <ImageView
+            android:padding="20dp"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/durgyanatemple"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginLeft="100dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Durgyana Temple"/>
+
+            <ImageView
+                android:src="@drawable/ff1"
+                android:layout_width="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="7sp"
+                android:layout_height="25sp" />
+        </LinearLayout>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:text="@string/dugyana1"/>
+
+        <ImageView
+            android:padding="20dp"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/attariborder"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="120dp"
+            android:layout_gravity="center"
+            android:text="Attari Border"/>
+
+
+
+
+            <ImageView
+                android:src="@drawable/ff1"
+                android:layout_width="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="7sp"
+                android:layout_height="25sp" />
+
+        </LinearLayout>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:text="@string/attari1"/>
+
+
+
+        <ImageView
+            android:padding="20dp"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/mansa"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:text="Mansa Devi Temple"/>
+
+
+
+
+            <ImageView
+                android:src="@drawable/ff1"
+                android:layout_width="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="7sp"
+                android:layout_height="25sp" />
+        </LinearLayout>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:text="@string/mansa1"/>
+
+
+
+        <ImageView
+            android:padding="20dp"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/devitlab"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="90dp"
+            android:text="Devitalab Temple"/>
+
+
+            <ImageView
+                android:src="@drawable/ff1"
+                android:layout_width="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="7sp"
+                android:layout_height="25sp" />
+
+
+        </LinearLayout>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:text="@string/devitla1"/>
+
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:padding="30dp"
+            android:layout_height="300dp"
+            android:src="@drawable/akalthakt"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:layout_marginLeft="130dp"
+            android:textSize="25dp"
+            android:text="Akal Takth"
+            />
+
+
+
+            <ImageView
+                android:src="@drawable/ff1"
+                android:layout_width="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="7sp"
+                android:layout_height="25sp" />
+        </LinearLayout>
+        <TextView
+            android:textColor="#FFBB00"
+            android:text="The Akal Takht (Punjabi: ਅਕਾਲ ਤਖ਼ਤ), meaning throne of the timeless one,is one of five takhts (seats of power) of the Sikhs . It is located in the Harmandir Sahib (Golden Temple) complex in Amritsar, Punjab. The Akal Takht was built by Guru Hargobind as a place of justice and consideration of temporal issues; the highest seat of earthly authority of the Khalsa (the collective body of the Sikhs) and the place of the Jathedar, the highest spokesman of the Sikhs. The current Jathedar of Akal Takht is Giani Gurbachan Singh."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="normal"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:padding="30dp"
+            android:layout_height="300dp"
+            android:src="@drawable/anandpursahib"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:layout_marginLeft="110dp"
+            android:textSize="25dp"
+            android:text="Anandpur Sahib"
+            />
+
+
+
+            <ImageView
+                android:src="@drawable/ff1"
+                android:layout_width="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="7sp"
+                android:layout_height="25sp" />
+        </LinearLayout>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:text="Anandpur Sahib, sometimes referred to simply as Anandpur is a city in Rupnagar district (Ropar), on the edge of Shivalik Hills, in the state of Punjab, India.Located near the Sutlej River, the city is one of the most sacred places in Sikhism, being the place where two last Sikh Gurus lived and where Guru Gobind Singh founded the Khalsa Panth in 1699.The city is home to Keshgarh Sahib Gurdwara, one of the five Takhts in Sikhism. The city is a pilgrimage site in Sikhism.It is the venue of the largest annual Sikh gathering and festivities during Hola Mohalla in the spring season"/>
+
+
+
+
+
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:padding="30dp"
+            android:layout_height="300dp"
+            android:src="@drawable/sheeshmahal"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:layout_marginLeft="110dp"
+            android:textSize="25dp"
+            android:text="Sheesh Mahal"
+            />
+
+
+
+
+            <ImageView
+                android:src="@drawable/ff1"
+                android:layout_width="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="7sp"
+                android:layout_height="25sp" />
+        </LinearLayout>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:text="A part of the Old Moti Bagh Palace built in the 19th century by the Maharajas is the famous Sheesh Mahal, literally meaning the Palace of Mirrors. The mahal contains a large number of frescoes, most of which were made under His Highness Maharaja Narinder Singh. A lake in front of the palace adds to the beauty. Lakshman Jhula, a bridge built across the lake, is a famous attraction. A museum housing the largest collection of medals from the world collected by His Highness Maharaja Bhupinder Singh is here.Currently the museum along with the main building is closed for public viewing because of renovation. However, tourists can access the surroundings of the Mahal along with the Lakshman Jhula."/>
+
+
+
+
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:padding="30dp"
+            android:layout_height="300dp"
+            android:src="@drawable/lodhifort"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:layout_marginLeft="110dp"
+            android:textSize="25dp"
+            android:text="Lodhi Fort"
+            />
+
+            <ImageView
+                android:src="@drawable/ff1"
+                android:layout_width="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="7sp"
+                android:layout_height="25sp" />
+        </LinearLayout>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:text="Lodhi Fort was built by Currently the museum along with the main building is closed for public viewing because of renovation. However, tourists can access the surroundings of the Mahal along with the Lakshman Jhula.Basically a military fort,the place wasonce standing up as a srtong bastion and had held out a number of intruders."/>
+
+    </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

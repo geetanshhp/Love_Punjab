@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context="com.example.geetanshsharma.love_punjab.collages">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="210dp"
+                android:layout_gravity="center"
+                android:transitionName="schoolshared"
+                android:src="@drawable/schoolresize"/>
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:text="School"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#FFBB00"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/collages1"
+                android:textStyle="normal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp" />
+
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:text="Top collegs in Punjab:"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:text="1.Delhi Public School, Jhammat Ayali Kalan, Ludhiana"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/dps"
+                android:layout_width="300dp"
+                android:layout_height="300dp" />
+
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:text="2.BCM Arya Model School, Shastri Nagar, Ludhiana"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+               android:layout_gravity="center"
+                android:src="@drawable/bcm"
+                android:layout_width="300dp"
+                android:layout_height="300dp" />
+
+
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:text="3.DAV Public School, BRS Nagar, Ludhiana"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/dav"
+                android:layout_width="300dp"
+                android:layout_height="300dp" />
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:text="4.Swami Sant Dass Public School, Phagwara"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/swami"
+                android:layout_width="300dp"
+                android:layout_height="300dp" />
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:text="5. Bhartiya Vidya Mandir, Kitchlu Nagar, Ludhiana"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/bharti"
+                android:layout_width="300dp"
+                android:layout_height="300dp" />
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:text="6.Christ The King Convent School, Pathankot"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/king"
+                android:layout_width="300dp"
+                android:layout_height="300dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="7. DAV Public School, Amritsar"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/amitdav"
+                android:layout_width="300dp"
+                android:layout_height="300dp" />
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:text="8. Delhi Public School, Dhanowali, Jalandhar"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/jal"
+                android:layout_width="300dp"
+                android:layout_height="300dp" />
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:text="9. Gobindgarh Public School, Mandi Gobindgarh"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/gobind"
+                android:layout_width="300dp"
+                android:layout_height="300dp" />
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:text="10. Kundan Vidya Mandir Senior Secondary School, Ludhiana"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/kudan"
+                android:layout_width="300dp"
+                android:layout_height="300dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

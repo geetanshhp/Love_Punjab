@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context="com.example.geetanshsharma.love_punjab.sports">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="10sp"
+            android:id="@+id/image"
+            android:layout_width="210dp"
+            android:layout_gravity="center"
+            android:layout_height="210dp"
+            android:transitionName="sportshared"
+            android:scaleType="fitXY"
+            android:src="@drawable/sportsresize"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="SPORTS"/>
+
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:text="@string/sports1"/>
+        <TextView
+            android:textColor="#FFBB00"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:text="The common sports played in Punjab for Boys:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="1.Cricket"/>
+
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="2.Gatka"/>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="3.Kabaddi"/>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="4.Kushtian"/>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="5.Khuddo khoondi"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_marginLeft="20dp"
+            android:text="6.Gulli danda"
+            android:textColor="#FFBB00"
+            android:textSize="22dp"
+            android:textStyle="normal" />
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="7.Bandar keela"/>
+
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="8.Tibla tiblee"/>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="9.Rassakashi"/>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text=""/>
+
+        <TextView
+            android:textColor="#FFBB00"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:text="The common sports played in Punjab for Girls:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="1.Thaal"/>
+
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="2.Kikli "/>
+
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="3.Gheeta Pathar "/>
+
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="4.Peecho bakree"/>
+
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="5.Khidu"/>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="6.Pangurha"/>
+
+
+
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text=""/>
+
+
+
+
+        <TextView
+            android:textColor="#FFBB00"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:text="The common sports played in Punjab for both boys and girls:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="1.Lattoo "/>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="2.Bantey"/>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="3.Kokla Chhapaki "/>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="4.Kidi Kada or Stapoo"/>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="5.Shatranj(Chess)"/>
+
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text="6.Bhanda bhandarya"/>
+
+
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text=""/>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:text=""/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.geetanshsharma.love_punjab">
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION">    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="VASDA_PUNJAB"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar">
+
+        </activity>
+        <activity android:name=".splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".aboutpunjab" />
+        <activity android:name=".celebratity" />
+        <activity android:name=".culture" />
+        <activity android:name=".politics" />
+        <activity android:name=".tourism" />
+        <activity android:name=".sports" />
+        <activity android:name=".geo" />
+        <activity android:name=".flora" />
+        <activity android:name=".fauna" />
+        <activity android:name=".education" />
+        <activity android:name=".historical" />
+        <activity android:name=".nhistorical" />
+        <activity android:name=".Manmohan" />
+        <activity android:name=".yuvraj" />
+        <activity android:name=".ranjit1" />
+        <activity android:name=".amrish" />
+        <activity android:name=".gurdas" />
+        <activity android:name=".akshay" />
+        <activity android:name=".harman" />
+        <activity android:name=".satnam" />
+        <activity android:name=".kapil" />
+        <activity android:name=".juhi" />
+        <activity android:name=".milkha" />
+        <activity android:name=".dev" />
+        <activity android:name=".prem" />
+        <activity android:name=".dara" />
+        <activity android:name=".dharmendra" />
+        <activity android:name=".food" />
+        <activity android:name=".festival" />
+        <activity android:name=".clothing" />
+        <activity android:name=".dance" />
+        <activity android:name=".music" />
+        <activity android:name=".abouteducation" />
+        <activity android:name=".collages" />
+        <activity android:name=".universities" />
+        <!-- <activity android:name=".MainActivity" /> -->
+        <activity android:name=".feedback" />
+        <activity android:name=".aboutus"></activity>
+        <activity android:name=".religion"></activity>
+    </application>
+
+</manifest>

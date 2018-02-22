@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context="com.example.geetanshsharma.love_punjab.satnam">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp">
+            <ImageView
+                android:layout_margin="10sp"
+                android:id="@+id/image"
+                android:scaleType="fitXY"
+                android:src="@drawable/satnamresize"
+                android:transitionName="satnamshared"
+                android:layout_gravity="center"
+                android:layout_width="210dp"
+                android:layout_height="210dp" />
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="25dp"
+                android:text="Satnam singh"
+                />
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/satnam1"
+                android:textStyle="normal"
+                android:textSize="22dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context="com.example.geetanshsharma.love_punjab.geo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_margin="10sp"
+            android:id="@+id/image"
+            android:transitionName="geoshared"
+            android:layout_width="210dp"
+            android:layout_gravity="center"
+            android:src="@drawable/georesize"
+            android:scaleType="fitXY"
+            android:layout_height="210dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:text="GEOGRAHICAL CONDITION"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"/>
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/geo1"
+            android:textStyle="normal"/>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

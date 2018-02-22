@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.geetanshsharma.love_punjab.flora">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="10sp"
+            android:layout_width="210dp"
+            android:layout_gravity="center"
+            android:id="@+id/flor"
+            android:transitionName="florashared"
+            android:src="@drawable/floraresize"
+            android:scaleType="fitXY"
+            android:layout_height="210dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:text="FLORA"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:text="@string/flora1"
+            android:textSize="22dp"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

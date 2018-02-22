@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.geetanshsharma.love_punjab.nhistorical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:textColor="#FFBB00"
+                android:text="NON-HISTORICAL PLACES:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/haveli"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:textColor="#FFBB00"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="40dp"
+                android:text="Rangla Punjab Haveli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/ff1"
+                    android:layout_width="25sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="7sp"
+                    android:layout_height="25sp" />
+            </LinearLayout>
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/haveli1"/>
+
+            <ImageView
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/wonderland"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#FFBB00"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="120dp"
+                android:text="Wonder Land"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+                <ImageView
+                    android:src="@drawable/ff1"
+                    android:layout_width="25sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="7sp"
+                    android:layout_height="25sp" />
+            </LinearLayout>
+
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wonderland1"/>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/sicencecity"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textColor="#FFBB00"
+                android:text="Science City"
+                android:layout_gravity="center"
+                android:layout_marginLeft="120dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+                <ImageView
+                    android:src="@drawable/ff1"
+                    android:layout_width="25sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="7sp"
+                    android:layout_height="25sp" />
+            </LinearLayout>
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textStyle="normal"
+                android:text="@string/science1"
+                android:textSize="22dp"/>
+
+
+
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/rockgarden"
+                android:layout_gravity="center"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+            <TextView
+               android:layout_marginLeft="120dp"
+                android:textColor="#FFBB00"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="Rock Garden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+                <ImageView
+                    android:src="@drawable/ff1"
+                    android:layout_width="25sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="7sp"
+                    android:layout_height="25sp" />
+            </LinearLayout>
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rock1"/>
+
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/tigerzoo"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+            <TextView
+                android:textColor="#FFBB00"
+                android:textSize="25dp"
+                android:textStyle="bold"
+               android:layout_marginLeft="120dp"
+                android:text="Tiger Zoo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/ff1"
+                    android:layout_width="25sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="7sp"
+                    android:layout_height="25sp" />
+
+
+            </LinearLayout>
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tiger1"/>
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/stadium"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+            <TextView
+                android:textColor="#FFBB00"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="120dp"
+                android:text="Stadium "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+                <ImageView
+                    android:src="@drawable/ff1"
+                    android:layout_width="25sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="7sp"
+                    android:layout_height="25sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/stadium1"
+                android:textColor="#FFBB00"
+                android:textSize="22dp" />
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ranjisagar"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+            <TextView
+                android:textColor="#FFBB00"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="100dp"
+                android:text="Ranjit Sagar Dam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+                <ImageView
+                    android:src="@drawable/ff1"
+                    android:layout_width="25sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="7sp"
+                    android:layout_height="25sp" />
+            </LinearLayout>
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ranjit1"/>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/dhobhi"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginLeft="120dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Dobhi Bazar"
+                android:textColor="#FFBB00"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+
+                <ImageView
+                    android:src="@drawable/ff1"
+                    android:layout_width="25sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="7sp"
+                    android:layout_height="25sp" />
+            </LinearLayout>
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Dhobi of Punjab are said to have immigrated from the ancient city of Kannauj in Uttar Pradesh, and are now found throughout Punjab. They are further sub-divided into clans called gots from the Sanskrit gotra, and marriages are forbidden within the clan. Their main clans are the hathwal ~ Chauhan, Panwar, Tonwar ,Rajoria and Mandora. The Dhobi speak Punjabi, and their customs are similar to other Punjabi dalit castes. They are community still very much involved in their traditional occupation which is washing clothes. "/>
+
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/lakhi"
+                android:layout_gravity="center"/>]
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+            <TextView
+                android:textColor="#FFBB00"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="120dp"
+                android:text="Lakhi Jungle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+                <ImageView
+                    android:src="@drawable/ff1"
+                    android:layout_width="25sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="7sp"
+                    android:layout_height="25sp" />
+            </LinearLayout>
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_marginLeft="20dp"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lakhi Jungle is situated 15 km from Bathinda, on the way to Muktsar. A forest having old Gurudwara enjoyed the touches of Shri Guru Nanak Dev who composed Japuji Sahib. Therefore, it was called Lakhi Jungle. Ninth Sikh Guru, Guru Teg Bahadur, and Tenth Sikh Guru, Guru Gobind Singh also visited this place."/>
+
+
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/lake"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+            <TextView
+                android:textColor="#FFBB00"
+
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Sukhna Lake"
+                android:layout_marginLeft="120dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+                <ImageView
+                    android:src="@drawable/ff1"
+                    android:layout_width="25sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="7sp"
+                    android:layout_height="25sp" />
+
+
+
+
+            </LinearLayout>
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_marginLeft="20dp"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Sukhna Lake in Chandigarh, India, is a reservoir at the foothills (Shivalik hills) of the Himalayas. This 3 km² rainfed lake was created in 1958 by damming the Sukhna Choe, a seasonal stream coming down from the Shivalik Hills. Originally the seasonal flow entered the lake directly causing heavy siltation. To check the inflow of silt, 25.42 km² of land was acquired in the catchment area and put under vegetation. In 1974, the Choe was diverted and made to bypass the lake completely, the lake being fed by three siltation pots, minimising the entry of silt into the lake itself."/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

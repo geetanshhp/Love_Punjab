@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.geetanshsharma.love_punjab.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="3dp"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.CardView
+                android:id="@+id/about"
+                android:clickable="true"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10sp"
+                android:layout_margin="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:alpha=".85"
+
+                    android:background="#f4684d"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/abtresize"
+                        android:id="@+id/punjabid"
+                        android:layout_margin="20dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="About Punjab"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="25dp"/>
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/culture"
+                android:clickable="true"
+                app:cardCornerRadius="5sp"
+                android:layout_margin="5sp"
+                app:cardElevation="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#f4684d"
+                    android:alpha=".85"
+
+
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:layout_margin="20dp"
+                        android:src="@drawable/cultureresize"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Culture"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="25dp"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:background="@drawable/cele"
+                android:id="@+id/celebrities"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="5sp"
+                android:clickable="true"
+                app:cardCornerRadius="5sp"
+                app:cardElevation="10sp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#f4684d"
+                    android:alpha=".85"
+
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:src="@drawable/celebresize"
+                        android:layout_margin="20dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Celebrities"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="25dp"/>
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/education"
+                app:cardElevation="10sp"
+                android:layout_margin="5sp"
+                app:cardCornerRadius="5sp"
+                android:clickable="true"
+                android:background="@drawable/edu">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#f4684d"
+                    android:alpha=".85"
+
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:src="@drawable/eduresize"
+                        android:layout_margin="20dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Education"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="25dp"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:background="@drawable/tourism"
+                android:id="@+id/tourism"
+                android:scaleType="fitXY"
+                android:layout_margin="5sp"
+                android:layout_width="match_parent"
+                app:cardCornerRadius="5sp"
+                app:cardElevation="10sp"
+                android:clickable="true"
+                android:layout_height="150dp" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#f4684d"
+                    android:alpha=".85"
+
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:src="@drawable/tpurismresize"
+                        android:layout_margin="20dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Tourism"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="25dp"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:background="@drawable/sports"
+                android:id="@+id/sports"
+                android:scaleType="fitXY"
+                app:cardElevation="10sp"
+                android:clickable="true"
+                android:layout_margin="5sp"
+                app:cardCornerRadius="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#f4684d"
+                    android:alpha=".85"
+
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:src="@drawable/sportsresize"
+                        android:transitionName="sportshared"
+                        android:id="@+id/sportsid"
+                        android:layout_margin="20dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Sports"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="25dp"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:background="@drawable/politics"
+                android:id="@+id/politics"
+                android:scaleType="fitXY"
+                app:cardCornerRadius="5sp"
+                android:clickable="true"
+                app:cardElevation="10sp"
+                android:layout_margin="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#f4684d"
+                    android:alpha=".85"
+
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:src="@drawable/polresize"
+                        android:transitionName="polshared"
+                        android:id="@+id/polid"
+                        android:layout_margin="20dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Politics"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="25dp"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:background="@drawable/geo"
+                android:id="@+id/geographical"
+                android:layout_margin="5sp"
+                app:cardCornerRadius="5sp"
+                android:clickable="true"
+                app:cardElevation="10sp"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:background="#f4684d"
+                android:alpha=".85"
+
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:src="@drawable/georesize"
+                    android:id="@+id/geoid"
+                    android:transitionName="geoshared"
+                    android:layout_margin="20dp"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Geographical"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"/>
+
+
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:background="@drawable/flora"
+                android:id="@+id/flora"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                app:cardCornerRadius="5sp"
+                android:layout_margin="5sp"
+                android:clickable="true"
+                app:cardElevation="10sp"
+                android:layout_height="150dp" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#f4684d"
+                    android:alpha=".85"
+
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:layout_width="110dp"
+                        android:transitionName="florashared"
+                        android:id="@+id/floraid"
+                        android:layout_height="110dp"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/floraresize" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Flora"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="25dp"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:background="@drawable/fauna"
+                android:id="@+id/fauna"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:cardElevation="10sp"
+                android:layout_margin="5sp"
+                app:cardCornerRadius="5sp"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#f4684d"
+                    android:alpha=".85"
+
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:src="@drawable/faunaresize"
+                        android:id="@+id/fuanaid"
+                        android:transitionName="fuanashared"
+                        android:layout_margin="20dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Fauna"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="25dp"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

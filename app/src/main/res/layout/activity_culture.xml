@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.geetanshsharma.love_punjab.culture">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="2sp"
+        android:id="@+id/food"
+        android:clickable="true"
+        app:cardCornerRadius="5sp"
+        app:cardElevation="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" >
+        <LinearLayout
+            android:alpha=".75"
+            android:background="#f4684d"             android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:src="@drawable/foodresize"
+                android:id="@+id/foodid"
+                android:transitionName="foodshared"
+                android:layout_width="110dp"
+                android:layout_margin="20dp"
+                android:layout_height="110dp" />
+
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Food"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp"/>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="2sp"
+
+        android:id="@+id/festival"
+        app:cardElevation="10sp"
+        android:clickable="true"
+        app:cardCornerRadius="5sp"
+        android:textSize="29dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" >
+        <LinearLayout
+            android:alpha=".75"
+            android:background="#f4684d"             android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:src="@drawable/fesresize"
+                android:id="@+id/festivalid"
+                android:transitionName="festivalshared"
+                android:layout_width="110dp"
+                android:layout_margin="20dp"
+                android:layout_height="110dp"  />
+
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Festival"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp"/>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_margin="2sp"
+
+        android:id="@+id/dance"
+        app:cardElevation="10sp"
+        android:clickable="true"
+        app:cardCornerRadius="5sp"
+        android:textSize="29dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <LinearLayout
+            android:alpha=".75"
+            android:background="#f4684d"             android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:src="@drawable/cultureresize"
+                android:transitionName="danceshared"
+                android:id="@+id/danceid"
+                android:layout_width="110dp"
+                android:layout_margin="20dp"
+                android:layout_height="110dp"  />
+
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Dance"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp"/>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="2sp"
+        app:cardCornerRadius="5sp"
+        app:cardElevation="10sp"
+        android:id="@+id/religion"
+        android:textSize="29dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <LinearLayout
+            android:alpha=".75"
+            android:background="#f4684d"             android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:src="@drawable/religionresize"
+                android:id="@+id/religionid"
+                android:transitionName="religionshared"
+                android:layout_width="110dp"
+                android:layout_margin="20dp"
+                android:layout_height="110dp"  />
+
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Religion"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp"/>
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="2sp"
+        app:cardCornerRadius="5sp"
+        app:cardElevation="10sp"
+        android:id="@+id/clothing"
+        android:textSize="29dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" >
+
+        <LinearLayout
+            android:alpha=".75"
+            android:background="#f4684d"             android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:src="@drawable/punjoutresize"
+                android:id="@+id/clothid"
+                android:transitionName="clothshared"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_margin="20dp"/>
+
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Clothing"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp"/>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_margin="2sp"
+        app:cardCornerRadius="5sp"
+        app:cardElevation="10sp"
+        android:id="@+id/music"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" >
+
+        <LinearLayout
+            android:alpha=".75"
+            android:background="#f4684d"             android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:src="@drawable/musicresize"
+                android:id="@+id/musicid"
+                android:transitionName="musicshared"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_margin="20dp" />
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Music"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp"/>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

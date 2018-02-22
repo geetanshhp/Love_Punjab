@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context="com.example.geetanshsharma.love_punjab.religion">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_margin="10sp"
+            android:textColor="#FFBB00"
+            android:layout_width="210dp"
+            android:src="@drawable/religionresize"
+            android:layout_gravity="center"
+            android:layout_height="210dp"
+            android:transitionName="religionshared"
+
+            />
+            <TextView
+                android:textColor="#FFBB00"
+                android:text="Religion In Punjab"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="22dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/religion5"/>
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_marginTop="20dp"
+                android:text="1.Sikhism"
+                android:textSize="25dp"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="22dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/religion1"/>
+
+
+
+
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="25dp"
+                android:text="2.Hinduism"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="22dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/hindu1"/>
+
+
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="25dp"
+                android:text="3.Others"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="22dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/others1"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.geetanshsharma.love_punjab.gurdas">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp">
+        <ImageView
+            android:layout_margin="10sp"
+            android:layout_width="210dp"
+            android:transitionName="gurdasshared"
+            android:id="@+id/image"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/celebresize"
+            android:layout_height="210dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:textColor="#FFBB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="THE LIVING LEGEND"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:textColor="#FFBB00"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="normal"
+            android:textSize="22dp"
+
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gurdas1"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

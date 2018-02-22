@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.geetanshsharma.love_punjab.celebratity">
+
+    <ScrollView
+        android:layout_below="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/ManmohanSingh"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:clickable="true"
+            app:cardCornerRadius="5sp"
+            android:layout_margin="5sp"
+            app:cardElevation="10sp"
+          >
+
+            <LinearLayout
+                android:alpha=".75"
+                android:background="#f4684d"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+
+                    android:layout_margin="20dp"
+                    android:src="@drawable/manmohanresize"
+                    android:transitionName="manmohanshared"
+                    android:id="@+id/manmohanid"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp" />
+
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Manmohan singh"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/gurdas"
+            android:clickable="true"
+            app:cardCornerRadius="5sp"
+            android:layout_margin="5sp"
+            app:cardElevation="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" >
+            <LinearLayout
+                android:alpha=".75"
+                android:background="#f4684d"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+
+                    android:layout_margin="12dp"
+                    android:src="@drawable/celebresize"
+                    android:id="@+id/gurdasid"
+                    android:transitionName="gurdasshared"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp" />
+
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Gurdas Maan"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/wadli"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            app:cardCornerRadius="5sp"
+            android:layout_margin="5sp"
+            app:cardElevation="10sp"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:alpha=".75"
+                android:background="#f4684d"                 android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+
+                    android:layout_margin="12dp"
+
+                    android:src="@drawable/wadaliresize"
+                    android:id="@+id/wadaliid"
+                    android:transitionName="wadalishared"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp" />
+
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Wadali Bros.."
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/AmrishPuri"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            app:cardCornerRadius="5sp"
+            android:layout_margin="5sp"
+            app:cardElevation="10sp"
+            android:layout_height="150dp" >
+            <LinearLayout
+                android:alpha=".75"
+                android:background="#f4684d"                 android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+
+                    android:layout_margin="12dp"
+                    android:src="@drawable/amrisesize"
+                    android:id="@+id/amrishid"
+                    android:transitionName="amrishshared"
+
+                    android:layout_width="130dp"
+                    android:layout_height="130dp" />
+
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Amrish Puri"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/yuvraj"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            app:cardCornerRadius="5sp"
+            android:layout_margin="5sp"
+            app:cardElevation="10sp"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:alpha=".75"
+                android:background="#f4684d"                 android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_margin="12dp"
+                    android:src="@drawable/yuresize"
+                    android:id="@+id/yuviid"
+                    android:transitionName="yuvishared"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp" />
+
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Yuvraj Singh"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/harmanpreet"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            app:cardCornerRadius="5sp"
+            android:layout_margin="5sp"
+            app:cardElevation="10sp"
+            android:layout_height="150dp" >
+            <LinearLayout
+                android:alpha=".75"
+                android:background="#f4684d"                 android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+
+                    android:layout_margin="12dp"
+                    android:src="@drawable/harmaresize"
+                    android:id="@+id/harmanid"
+                    android:transitionName="harmanshared"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp" />
+
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Harmanpreet Kaur"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/satnam"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            app:cardCornerRadius="5sp"
+            android:layout_margin="5sp"
+            app:cardElevation="10sp"
+            android:layout_height="150dp" >
+
+            <LinearLayout
+                android:alpha=".75"
+                android:background="#f4684d"                 android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/satnamid"
+                    android:transitionName="satnamshared"
+                    android:layout_margin="12dp"
+                    android:src="@drawable/satnamresize"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp" />
+
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Satnam Singh"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"/>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/MilkhaSingh"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            app:cardCornerRadius="5sp"
+            android:layout_margin="5sp"
+            app:cardElevation="10sp"
+            android:layout_height="150dp" >
+            <LinearLayout
+                android:alpha=".75"
+                android:background="#f4684d"                 android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+
+                    android:layout_margin="12dp"
+                    android:src="@drawable/milkharesize"
+                    android:id="@+id/milkhid"
+                    android:transitionName="milkhshared"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp" />
+
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Milkha Singh"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/PremChopra"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            app:cardCornerRadius="5sp"
+            android:layout_margin="5sp"
+            app:cardElevation="10sp"
+            android:layout_height="150dp" >
+            <LinearLayout
+                android:alpha=".75"
+                android:background="#f4684d"                 android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+
+                    android:layout_margin="12dp"
+                    android:src="@drawable/premresize"
+android:id="@+id/premid"
+                    android:transitionName="premshared"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp" />
+
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Prem Chopra"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/Dharmrndra"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            app:cardCornerRadius="5sp"
+            android:layout_margin="5sp"
+            app:cardElevation="10sp"
+            android:layout_height="150dp" >
+            <LinearLayout
+                android:alpha=".75"
+                android:background="#f4684d"                 android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+
+                    android:layout_margin="12dp"
+                    android:src="@drawable/dharamresize"
+                    android:id="@+id/dharamid"
+                    android:transitionName="dharamshared"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp" />
+
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Dharmendra"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/AkshayKumar"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            app:cardCornerRadius="5sp"
+            android:layout_margin="5sp"
+            app:cardElevation="10sp"
+            android:layout_height="150dp" >
+            <LinearLayout
+                android:alpha=".75"
+                android:background="#f4684d"                 android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+
+                    android:layout_margin="12dp"
+                    android:src="@drawable/akresize"
+                    android:id="@+id/akshayid"
+                    android:transitionName="akshayshared"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp" />
+
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Akshay Kumar"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"/>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/JuhiChawla"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            app:cardCornerRadius="5sp"
+            android:layout_margin="5sp"
+            app:cardElevation="10sp"
+            android:layout_height="150dp" >
+            <LinearLayout
+                android:alpha=".75"
+                android:background="#f4684d"                 android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+
+                    android:layout_margin="12dp"
+                    android:src="@drawable/juhiresize"
+                    android:id="@+id/juhiid"
+                    android:transitionName="juhishared"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp" />
+
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Juhi Chawla"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"/>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/KapilSharma"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            app:cardCornerRadius="5sp"
+            android:layout_margin="5sp"
+            app:cardElevation="10sp"
+            android:layout_height="150dp" >
+            <LinearLayout
+                android:alpha=".75"
+                android:background="#f4684d"                 android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+
+                    android:layout_margin="12dp"
+                    android:src="@drawable/kapilresize"
+                    android:id="@+id/kapilid"
+                    android:transitionName="kapilshared"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp" />
+
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Kapil Sharma"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"/>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/DevAnand"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            app:cardCornerRadius="5sp"
+            android:layout_margin="5sp"
+            app:cardElevation="10sp"
+        android:layout_height="150dp" >
+
+            <LinearLayout
+                android:alpha=".75"
+                android:background="#f4684d"                 android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+
+                    android:layout_margin="12dp"
+                    android:src="@drawable/devresize"
+                    android:id="@+id/devid"
+                    android:transitionName="devshared"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp" />
+
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Dev Anand"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/Darasingh"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            app:cardCornerRadius="5sp"
+            android:layout_margin="5sp"
+            app:cardElevation="10sp"
+            android:layout_height="150dp" >
+            <LinearLayout
+                android:alpha=".75"
+                android:background="#f4684d"                 android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+
+                    android:layout_margin="12dp"
+                    android:src="@drawable/dararesize"
+                    android:id="@+id/daraid"
+                    android:transitionName="darashared"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp" />
+
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Dara Singh"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

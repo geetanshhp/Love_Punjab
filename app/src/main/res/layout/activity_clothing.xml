@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context="com.example.geetanshsharma.love_punjab.clothing">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_margin="10sp"
+                android:layout_gravity="center"
+                android:src="@drawable/punjoutresize"
+                android:transitionName="clothshared"
+                android:layout_width="210dp"
+                android:layout_height="210dp" />
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#FFBB00"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="Clothing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#FFBB00"
+                android:textStyle="normal"
+                android:textSize="22dp"
+                android:text="@string/clothing1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:textColor="#FFBB00"
+                android:text="Common dress for Women in Punjab:"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#FFBB00"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="22dp"
+                android:textStyle="normal"
+                android:text="@string/cloth9"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
